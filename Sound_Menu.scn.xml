@@ -1,0 +1,172 @@
+<TaskerData sr="" dvi="1" tv="5.0u3">
+	<dmetric>1440.0,2560.0</dmetric>
+	<Scene sr="sceneSound Menu">
+		<cdate>1501352458346</cdate>
+		<edate>1501412901779</edate>
+		<heightLand>-1</heightLand>
+		<heightPort>856</heightPort>
+		<nme>Sound Menu</nme>
+		<widthLand>-1</widthLand>
+		<widthPort>1157</widthPort>
+		<RectElement sr="elements0">
+			<flags>4</flags>
+			<geom>155,53,897,701,155,0,897,701</geom>
+			<Str sr="arg0" ve="3">Rectangle1</Str>
+			<Int sr="arg1" val="0"/>
+			<Str sr="arg2" ve="3">#D1333333</Str>
+			<Str sr="arg3" ve="3"/>
+			<Int sr="arg4" val="0"/>
+			<Str sr="arg5" ve="3">#FF000000</Str>
+			<Int sr="arg6" val="30"/>
+			<Int sr="arg7" val="0"/>
+		</RectElement>
+		<ListElement sr="elements1">
+			<flags>4</flags>
+			<geom>229,128,762,623,0,82,837,758</geom>
+			<Str sr="arg0" ve="3">Sound Apps</Str>
+			<Int sr="arg1" val="0"/>
+			<Str sr="arg2" ve="3"/>
+			<Int sr="arg3" val="1"/>
+			<Scene sr="arg4">
+				<Scene sr="val">
+					<cdate>1501352806983</cdate>
+					<edate>1501352806983</edate>
+					<heightLand>117</heightLand>
+					<heightPort>250</heightPort>
+					<nme>Builtin Item Layout</nme>
+					<widthLand>510</widthLand>
+					<widthPort>762</widthPort>
+					<ImageElement sr="elements0" ve="2">
+						<flags>5</flags>
+						<geom>598,50,132,124,765,21,204,183</geom>
+						<Str sr="arg0" ve="3">Icon</Str>
+						<Img sr="arg1" ve="2">
+							<nme>hd_aaa_ext_tiles_small</nme>
+						</Img>
+						<Int sr="arg2" val="255"/>
+					</ImageElement>
+					<TextElement sr="elements1" ve="3">
+						<flags>5</flags>
+						<geom>0,0,762,222,150,21,594,183</geom>
+						<Str sr="arg0" ve="3">Label</Str>
+						<Str sr="arg1" ve="3"/>
+						<Int sr="arg2" val="35"/>
+						<Int sr="arg3" val="100"/>
+						<Str sr="arg4" ve="3">#FFFFFFFF</Str>
+						<Str sr="arg5" ve="3"/>
+						<Int sr="arg6" val="3"/>
+						<Int sr="arg7" val="0"/>
+						<Int sr="arg8" val="0"/>
+						<RectElement sr="background">
+							<flags>4</flags>
+							<geom>-1,-1,-1,-1,-1,-1,-1,-1</geom>
+							<Str sr="arg0" ve="3"/>
+							<Int sr="arg1" val="0"/>
+							<Str sr="arg2" ve="3"/>
+							<Str sr="arg3" ve="3"/>
+							<Int sr="arg4" val="0"/>
+							<Str sr="arg5" ve="3">#FF000000</Str>
+							<Int sr="arg6" val="10"/>
+							<Int sr="arg7" val="0"/>
+						</RectElement>
+					</TextElement>
+					<TextElement sr="elements2" ve="3">
+						<flags>1</flags>
+						<geom>33,26,175,149,21,21,108,183</geom>
+						<Str sr="arg0" ve="3">Index</Str>
+						<Str sr="arg1" ve="3">1.</Str>
+						<Int sr="arg2" val="20"/>
+						<Int sr="arg3" val="100"/>
+						<Str sr="arg4" ve="3">#FFFFFFFF</Str>
+						<Str sr="arg5" ve="3"/>
+						<Int sr="arg6" val="0"/>
+						<Int sr="arg7" val="0"/>
+						<Int sr="arg8" val="0"/>
+						<RectElement sr="background">
+							<flags>4</flags>
+							<geom>-1,-1,-1,-1,-1,-1,-1,-1</geom>
+							<Str sr="arg0" ve="3"/>
+							<Int sr="arg1" val="0"/>
+							<Str sr="arg2" ve="3"/>
+							<Str sr="arg3" ve="3"/>
+							<Int sr="arg4" val="0"/>
+							<Str sr="arg5" ve="3">#FF000000</Str>
+							<Int sr="arg6" val="16"/>
+							<Int sr="arg7" val="0"/>
+						</RectElement>
+					</TextElement>
+					<PropertiesElement sr="props">
+						<Int sr="arg0" val="1"/>
+						<Int sr="arg1" val="0"/>
+						<Str sr="arg2" ve="3">#00000000</Str>
+						<Int sr="arg3" val="0"/>
+						<Str sr="arg4" ve="3">Builtin Item Layout</Str>
+						<Str sr="arg5" ve="3"/>
+						<Img sr="arg6" ve="2"/>
+						<Str sr="arg7" ve="3"/>
+					</PropertiesElement>
+				</Scene>
+			</Scene>
+			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="100"/>
+			<RectElement sr="background">
+				<flags>4</flags>
+				<geom>-1,-1,-1,-1,-1,-1,-1,-1</geom>
+				<Str sr="arg0" ve="3"/>
+				<Int sr="arg1" val="0"/>
+				<Str sr="arg2" ve="3">#00000000</Str>
+				<Str sr="arg3" ve="3"/>
+				<Int sr="arg4" val="0"/>
+				<Str sr="arg5" ve="3">#FF808080</Str>
+				<Int sr="arg6" val="0"/>
+				<Int sr="arg7" val="0"/>
+			</RectElement>
+			<ListElementItem sr="item0">
+				<label>Spotify</label>
+				<Action sr="action" ve="7">
+					<code>20</code>
+					<App sr="arg0">
+						<appClass>com.spotify.music.MainActivity</appClass>
+						<appPkg>com.spotify.music</appPkg>
+						<label>Spotify</label>
+					</App>
+					<Str sr="arg1" ve="3"/>
+					<Int sr="arg2" val="0"/>
+					<Int sr="arg3" val="0"/>
+				</Action>
+				<Img sr="icon" ve="2">
+					<cls>com.spotify.music.MainActivity</cls>
+					<pkg>com.spotify.music</pkg>
+				</Img>
+			</ListElementItem>
+			<ListElementItem sr="item1">
+				<label>Podcast</label>
+				<Action sr="action" ve="7">
+					<code>20</code>
+					<App sr="arg0">
+						<appClass>mobi.beyondpod.ui.views.Splash</appClass>
+						<appPkg>mobi.beyondpod</appPkg>
+						<label>BeyondPod</label>
+					</App>
+					<Str sr="arg1" ve="3"/>
+					<Int sr="arg2" val="0"/>
+					<Int sr="arg3" val="0"/>
+				</Action>
+				<Img sr="icon" ve="2">
+					<cls>mobi.beyondpod.ui.views.Splash</cls>
+					<pkg>mobi.beyondpod</pkg>
+				</Img>
+			</ListElementItem>
+		</ListElement>
+		<PropertiesElement sr="props">
+			<Int sr="arg0" val="1"/>
+			<Int sr="arg1" val="0"/>
+			<Str sr="arg2" ve="3">#00000000</Str>
+			<Int sr="arg3" val="0"/>
+			<Str sr="arg4" ve="3">Sound Menu</Str>
+			<Str sr="arg5" ve="3"/>
+			<Img sr="arg6" ve="2"/>
+			<Str sr="arg7" ve="3"/>
+		</PropertiesElement>
+	</Scene>
+</TaskerData>
